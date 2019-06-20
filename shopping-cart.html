@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shopping Cart</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+	<link rel="stylesheet" href="css/shopping-cart.css">
+	<script src="js/index.js"></script>
+</head>
+<body>
+	<main class="page">
+	 	<section class="shopping-cart dark">
+	 		<div class="container">
+		        <div class="block-heading">
+		          <h2>Shopping Cart</h2>
+		          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
+		        </div>
+		        <div class="content">
+	 				<div class="row">
+	 					<div class="col-md-12 col-lg-8">
+	 						<div class="items">
+				 				<div class="product invisible1">
+				 					<div class="row"> 
+					 					<div class="col-md-3"> 
+					 						<img class="img-fluid mx-auto d-block image" src="image.jpg">
+					 					</div>
+					 					<div class="col-md-8">
+					 						<div class="info">
+						 						<div class="row">
+							 						<div class="col-md-5 product-name">
+							 							<div class="product-name"> 
+								 							<a href="#">Lorem Ipsum dolor</a>
+								 							<div class="product-info">
+									 							<div>Display: <span class="value">5 inch</span></div>
+									 							<div>RAM: <span class="value">4GB</span></div>
+																 <div>Memory: <span class="value">32GB</span></div>
+																<div>prix : $<span class="prix-quantity1">120</span></div>
+																<div><button style="font-size:24px" onclick="love('love1')"><i class='far fa-heart love1' style='font-size:20px;'></i></button></div>
+																<div><button style="font-size:24px" onclick="supp('invisible1')"><i class="fa fa-trash pro1"  style="font-size:22px;color:black"></i></button></div>
+									 						</div>
+									 					</div>
+							 						</div>
+							 						<div class="col-md-4 quantity">
+							 							<label for="quantity">Quantity:</label>
+							 							<input id="quantity1" type="number" min="0" value ="0" class="form-control quantity-input">
+							 						</div>
+							 						<div class="col-md-3 price">
+														$<span class="prix1 invisible1p">0</span>
+							 						</div>
+							 					</div>
+							 				</div>
+					 					</div>
+					 				</div>
+				 				</div>
+				 				<div class="product invisible2">
+				 					<div class="row">
+					 					<div class="col-md-3">
+					 						<img class="img-fluid mx-auto d-block image" src="image.jpg">
+					 					</div>
+					 					<div class="col-md-8">
+					 						<div class="info">
+						 						<div class="row">
+							 						<div class="col-md-5 product-name">
+							 							<div class="product-name">
+								 							<a href="#">Lorem Ipsum dolor</a>
+								 							<div class="product-info">
+									 							<div>Display: <span class="value">5 inch</span></div>
+									 							<div>RAM: <span class="value">4GB</span></div>
+																 <div>Memory: <span class="value">32GB</span></div>
+																 <div>prix : $<span class="prix-quantity2">120</span></div>
+																<div><button style="font-size:24px" onclick="love('love2')"><i class='far fa-heart love2' style='font-size:20px; '></i></button></div>
+																<div><button style="font-size:24px"  onclick="supp('invisible2')"><i class="fa fa-trash pro2" style="font-size:22px;color:black "></i></button></div>
+									 						</div>
+									 					</div>
+							 						</div>
+							 						<div class="col-md-4 quantity">
+							 							<label for="quantity">Quantity:</label>
+							 							<input id="quantity2" type="number" min="0" value ="0" class="form-control quantity-input">
+							 						</div>
+							 						<div class="col-md-3 price">
+														$<span class="prix2 invisible2p">0</span>
+							 						</div>
+							 					</div>
+							 				</div>
+					 					</div>
+					 				</div>
+				 				</div>
+				 				<div class="product invisible3">
+				 					<div class="row">
+					 					<div class="col-md-3">
+					 						<img class="img-fluid mx-auto d-block image" src="image.jpg">
+					 					</div>
+					 					<div class="col-md-8">
+					 						<div class="info">
+						 						<div class="row">
+							 						<div class="col-md-5 product-name">
+							 							<div class="product-name">
+								 							<a href="#">Lorem Ipsum dolor</a>
+								 							<div class="product-info">
+									 							<div>Display: <span class="value">5 inch</span></div>
+									 							<div>RAM: <span class="value">4GB</span></div>
+																 <div>Memory: <span class="value">32GB</span></div>
+																 <div>Prix : $<span class="prix-quantity3">120</span></div>
+																<div><button style="font-size:24px" onclick="love('love3')"><i class='far fa-heart love3' style='font-size:20px;'></i></button></div>
+																<div><button onclick="supp('invisible3')" style="font-size:24px"><i class="fa fa-trash" style="font-size:22px;color:black" ></i></button></div>
+									 						</div>
+									 					</div>
+							 						</div>
+							 						<div class="col-md-4 quantity">
+							 							<label for="quantity">Quantity:</label>
+							 							<input id="quantity3" type="number" min="0" value ="0" class="form-control quantity-input">
+							 						</div>
+							 						<div class="col-md-3 price">
+														$<span class="prix3 invisible3p">0</span>
+							 						</div>
+							 					</div>
+							 				</div>
+					 					</div>
+					 				</div>
+				 				</div>
+				 			</div>
+			 			</div>
+			 			<div class="col-md-12 col-lg-4">
+			 				<div class="summary">
+			 					<h3>Summary</h3>
+			 					 
+			 					<div class="summary-item"><span class="text">Total : $</span><span class="price-finale">0</span></div>
+			 					<button type="button" class="btn btn-primary btn-lg btn-block" onclick="cal()" >Checkout</button>
+				 			</div>
+			 			</div>
+		 			</div> 
+		 		</div>
+	 		</div>
+		</section>
+	</main>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
